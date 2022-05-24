@@ -20,8 +20,4 @@ function decrementar(){
         numeroAtualPegar.innerHTML = numeroAtual;
         corBotao.style.backgroundColor = '#ff0043';
     }
-    if(1 > numeroAtual){
-        corBotao.style.backgroundColor = 'gray';
-        corBotao.style.border = 'gray';
-    }
 }
